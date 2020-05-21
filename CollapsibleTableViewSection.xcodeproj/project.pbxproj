@@ -77,6 +77,7 @@
 				89F7ECA42477102B00584986 /* MockData */,
 				89F7ECB52477274300584986 /* ProjectHelper */,
 				89F7ECB62477276E00584986 /* Sections */,
+				89F7EC9C24770CD000584986 /* Info.plist */,
 			);
 			path = CollapsibleTableViewSection;
 			sourceTree = "<group>";
@@ -113,7 +114,6 @@
 		89F7ECB52477274300584986 /* ProjectHelper */ = {
 			isa = PBXGroup;
 			children = (
-				89F7EC9C24770CD000584986 /* Info.plist */,
 				89F7EC8E24770CCE00584986 /* AppDelegate.swift */,
 				89F7EC9024770CCE00584986 /* SceneDelegate.swift */,
 				89F7EC9724770CD000584986 /* Assets.xcassets */,

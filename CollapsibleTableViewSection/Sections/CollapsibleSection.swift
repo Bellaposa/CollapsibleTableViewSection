@@ -63,6 +63,10 @@ extension CollapsibleSection: UITableViewDataSource {
 		}
 		return UITableViewCell()
 	}
+	
+	func numberOfSections(in tableView: UITableView) -> Int {
+		return items.count
+	}
 }
 
 extension CollapsibleSectionItem {
