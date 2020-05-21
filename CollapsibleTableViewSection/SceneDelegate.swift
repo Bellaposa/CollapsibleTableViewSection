@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  CollapsibleTableViewSection
 //
-//  Created by Antonio Posabella on 21/05/2020.
+//  Created by bellaposa on 21/05/2020.
 //  Copyright © 2020 bellaposa. All rights reserved.
 //
 
