@@ -37,6 +37,9 @@ class CollapsibleSection: NSObject {
 		mockData?.datas.forEach({
 			items.append(InformationItem(name: $0.name, details: $0.details))
 		})
+		
+		items.append(InformationItem(name: "$0.name", details: "$0.details"))
+
 	}
 }
 

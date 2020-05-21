@@ -19,7 +19,7 @@ class ViewController: UIViewController {
 		
 		collapsibleSection.reloadSections = { [weak self] (section: Int) in
 			self?.tableView.beginUpdates()
-			self?.tableView.reloadSections([section], with: .none)
+			self?.tableView.reloadSections([section], with: .automatic)
 			self?.tableView.endUpdates()
 		}
 		

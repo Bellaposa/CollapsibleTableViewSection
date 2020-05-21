@@ -72,17 +72,11 @@
 		89F7EC8D24770CCE00584986 /* CollapsibleTableViewSection */ = {
 			isa = PBXGroup;
 			children = (
+				89F7ECB42477270900584986 /* ViewController */,
 				89F7ECA92477140000584986 /* Views */,
 				89F7ECA42477102B00584986 /* MockData */,
-				89F7EC8E24770CCE00584986 /* AppDelegate.swift */,
-				89F7EC9024770CCE00584986 /* SceneDelegate.swift */,
-				89F7EC9224770CCE00584986 /* ViewController.swift */,
-				89F7EC9424770CCE00584986 /* Main.storyboard */,
-				89F7EC9724770CD000584986 /* Assets.xcassets */,
-				89F7EC9924770CD000584986 /* LaunchScreen.storyboard */,
-				89F7EC9C24770CD000584986 /* Info.plist */,
-				89F7ECA224770F4900584986 /* CollapsibleSection.swift */,
-				89F7ECB22477197600584986 /* InformationItem.swift */,
+				89F7ECB52477274300584986 /* ProjectHelper */,
+				89F7ECB62477276E00584986 /* Sections */,
 			);
 			path = CollapsibleTableViewSection;
 			sourceTree = "<group>";
@@ -99,12 +93,42 @@
 		89F7ECA92477140000584986 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				89F7EC9424770CCE00584986 /* Main.storyboard */,
 				89F7ECAA2477145400584986 /* HeaderView.swift */,
 				89F7ECAB2477145400584986 /* HeaderView.xib */,
 				89F7ECAE2477173900584986 /* DatasTableViewCell.swift */,
 				89F7ECAF2477173900584986 /* DatasTableViewCell.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		89F7ECB42477270900584986 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				89F7EC9224770CCE00584986 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		89F7ECB52477274300584986 /* ProjectHelper */ = {
+			isa = PBXGroup;
+			children = (
+				89F7EC9C24770CD000584986 /* Info.plist */,
+				89F7EC8E24770CCE00584986 /* AppDelegate.swift */,
+				89F7EC9024770CCE00584986 /* SceneDelegate.swift */,
+				89F7EC9724770CD000584986 /* Assets.xcassets */,
+				89F7EC9924770CD000584986 /* LaunchScreen.storyboard */,
+			);
+			path = ProjectHelper;
+			sourceTree = "<group>";
+		};
+		89F7ECB62477276E00584986 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				89F7ECA224770F4900584986 /* CollapsibleSection.swift */,
+				89F7ECB22477197600584986 /* InformationItem.swift */,
+			);
+			path = Sections;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
