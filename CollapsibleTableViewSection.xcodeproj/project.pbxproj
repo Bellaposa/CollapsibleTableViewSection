@@ -13,6 +13,14 @@
 		89F7EC9624770CCE00584986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89F7EC9424770CCE00584986 /* Main.storyboard */; };
 		89F7EC9824770CD000584986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F7EC9724770CD000584986 /* Assets.xcassets */; };
 		89F7EC9B24770CD000584986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89F7EC9924770CD000584986 /* LaunchScreen.storyboard */; };
+		89F7ECA324770F4900584986 /* CollapsibleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F7ECA224770F4900584986 /* CollapsibleSection.swift */; };
+		89F7ECA62477105000584986 /* Mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 89F7ECA52477105000584986 /* Mock.json */; };
+		89F7ECA82477111F00584986 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F7ECA72477111F00584986 /* MockData.swift */; };
+		89F7ECAC2477145400584986 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F7ECAA2477145400584986 /* HeaderView.swift */; };
+		89F7ECAD2477145400584986 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89F7ECAB2477145400584986 /* HeaderView.xib */; };
+		89F7ECB02477173900584986 /* DatasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F7ECAE2477173900584986 /* DatasTableViewCell.swift */; };
+		89F7ECB12477173900584986 /* DatasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89F7ECAF2477173900584986 /* DatasTableViewCell.xib */; };
+		89F7ECB32477197600584986 /* InformationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F7ECB22477197600584986 /* InformationItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		89F7EC9724770CD000584986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89F7EC9A24770CD000584986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89F7EC9C24770CD000584986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89F7ECA224770F4900584986 /* CollapsibleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleSection.swift; sourceTree = "<group>"; };
+		89F7ECA52477105000584986 /* Mock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Mock.json; sourceTree = "<group>"; };
+		89F7ECA72477111F00584986 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		89F7ECAA2477145400584986 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		89F7ECAB2477145400584986 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		89F7ECAE2477173900584986 /* DatasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatasTableViewCell.swift; sourceTree = "<group>"; };
+		89F7ECAF2477173900584986 /* DatasTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DatasTableViewCell.xib; sourceTree = "<group>"; };
+		89F7ECB22477197600584986 /* InformationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,8 @@
 		89F7EC8D24770CCE00584986 /* CollapsibleTableViewSection */ = {
 			isa = PBXGroup;
 			children = (
+				89F7ECA92477140000584986 /* Views */,
+				89F7ECA42477102B00584986 /* MockData */,
 				89F7EC8E24770CCE00584986 /* AppDelegate.swift */,
 				89F7EC9024770CCE00584986 /* SceneDelegate.swift */,
 				89F7EC9224770CCE00584986 /* ViewController.swift */,
@@ -63,8 +81,30 @@
 				89F7EC9724770CD000584986 /* Assets.xcassets */,
 				89F7EC9924770CD000584986 /* LaunchScreen.storyboard */,
 				89F7EC9C24770CD000584986 /* Info.plist */,
+				89F7ECA224770F4900584986 /* CollapsibleSection.swift */,
+				89F7ECB22477197600584986 /* InformationItem.swift */,
 			);
 			path = CollapsibleTableViewSection;
+			sourceTree = "<group>";
+		};
+		89F7ECA42477102B00584986 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				89F7ECA52477105000584986 /* Mock.json */,
+				89F7ECA72477111F00584986 /* MockData.swift */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		89F7ECA92477140000584986 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89F7ECAA2477145400584986 /* HeaderView.swift */,
+				89F7ECAB2477145400584986 /* HeaderView.xib */,
+				89F7ECAE2477173900584986 /* DatasTableViewCell.swift */,
+				89F7ECAF2477173900584986 /* DatasTableViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				89F7EC9B24770CD000584986 /* LaunchScreen.storyboard in Resources */,
+				89F7ECAD2477145400584986 /* HeaderView.xib in Resources */,
 				89F7EC9824770CD000584986 /* Assets.xcassets in Resources */,
+				89F7ECB12477173900584986 /* DatasTableViewCell.xib in Resources */,
 				89F7EC9624770CCE00584986 /* Main.storyboard in Resources */,
+				89F7ECA62477105000584986 /* Mock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +181,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89F7ECA324770F4900584986 /* CollapsibleSection.swift in Sources */,
+				89F7ECAC2477145400584986 /* HeaderView.swift in Sources */,
 				89F7EC9324770CCE00584986 /* ViewController.swift in Sources */,
 				89F7EC8F24770CCE00584986 /* AppDelegate.swift in Sources */,
+				89F7ECB02477173900584986 /* DatasTableViewCell.swift in Sources */,
+				89F7ECB32477197600584986 /* InformationItem.swift in Sources */,
 				89F7EC9124770CCE00584986 /* SceneDelegate.swift in Sources */,
+				89F7ECA82477111F00584986 /* MockData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
