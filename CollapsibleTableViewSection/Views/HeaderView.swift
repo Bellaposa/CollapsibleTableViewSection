@@ -52,6 +52,6 @@ extension HeaderView {
 	}
 	
 	func setCollapsed(collapsed: Bool) {
-		arrowImage.image = UIImage(named: collapsed ? "arrow.down" : "arrow.up")
+		arrowImage.image = UIImage(named: collapsed ? "arrowsDownBlack" : "arrowsUpBlack")
 	}
 }
