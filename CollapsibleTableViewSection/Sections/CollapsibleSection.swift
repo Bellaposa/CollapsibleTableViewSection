@@ -30,16 +30,11 @@ class CollapsibleSection: NSObject {
 		super.init()
 	
 		// load data
-		guard let data = dataFromFile() else { return }
+		guard let dataFromFile = dataFromFile() else { return }
 		
-		let mockData = try? JSONDecoder().decode(MockData.self, from: data)
-		
-		mockData?.datas.forEach({
-			items.append(InformationItem(name: $0.name, details: $0.details))
-		})
-		
-		items.append(InformationItem(name: "$0.name", details: "$0.details"))
+		let data = try? JSONDecoder().decode(MockData.self, from: dataFromFile)
 
+		items.append(contentsOf: data?.datas.map { InformationItem(name: $0.name, details: $0.details) } ?? [])
 	}
 }
 
