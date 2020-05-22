@@ -86,10 +86,6 @@ extension CollapsibleSection: UITableViewDelegate {
 		}
 		return UIView()
 	}
-	
-	func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-		return items[section].sectionTitle
-	}
 }
 
 extension CollapsibleSection: HeaderViewDelegate {
